@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-note-lock",
+  "name": "Note Lock",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Lock/unlock notes at OS level using macOS chflags uchg",
+  "author": "gon",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}

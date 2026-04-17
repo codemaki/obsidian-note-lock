@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-note-lock",
+  "version": "1.0.0",
+  "description": "Lock/unlock notes at OS level using macOS chflags uchg",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "esbuild": "^0.17.0",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "^5.0.0"
+  }
+}

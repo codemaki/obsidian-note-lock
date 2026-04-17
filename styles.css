@@ -1,0 +1,18 @@
+.obsidian-note-lock-status-bar {
+  cursor: pointer;
+  padding: 0 4px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.obsidian-note-lock-status-bar:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.obsidian-note-lock-status-bar.is-locked {
+  color: var(--color-orange);
+}
+
+.obsidian-note-lock-status-bar.is-unlocked {
+  color: var(--text-muted);
+}
